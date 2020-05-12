@@ -973,15 +973,8 @@ if (isset($_GET['tab']) && in_array($_GET['tab'], array("sysadmin", "blocklists"
                                                 </div>
                                                 <h4>Administrator Email Address</h4>
                                                 <div class="form-group">
-<<<<<<< HEAD
-                                                    <div class="input-group">
-                                                        <input type="email" class="form-control" name="adminemail"
-                                                               value="<?php echo htmlspecialchars($adminemail); ?>">
-                                                    </div>
-=======
                                                     <input type="text" class="form-control" name="adminemail"
                                                            value="<?php echo htmlspecialchars($adminemail); ?>">
->>>>>>> master
                                                 </div>
                                                 <input type="hidden" name="field" value="webUI">
                                                 <input type="hidden" name="token" value="<?php echo $token ?>">
