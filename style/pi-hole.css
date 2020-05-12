@@ -289,6 +289,10 @@
     color: #36f !important;
 }
 
+.d-none {
+    display: none !important;
+}
+
 td.highlight {
     background-color: #ff0 !important;
 }
